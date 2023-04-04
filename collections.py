@@ -62,14 +62,14 @@ student_1 = {
     "completed_lesson_names": ["variables", "data types", "set up"]
 }
 
-# Access to dictionary
-print(student_1["stream"])
-# Access a part of the list in the dictionary
-print(student_1["completed_lesson_names"][0])
-
-# Change a value in dictionary
-student_1["completed_lessons"] = 3
-print(student_1)
+# # Access to dictionary
+# print(student_1["stream"])
+# # Access a part of the list in the dictionary
+# print(student_1["completed_lesson_names"][0])
+#
+# # Change a value in dictionary
+# student_1["completed_lessons"] = 3
+# print(student_1)
 
 # Changing an element of a list within a dictionary
 student_1["completed_lesson_names"].remove("data types")
